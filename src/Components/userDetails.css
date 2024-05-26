@@ -1,0 +1,43 @@
+.UserHead{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+
+
+
+
+}
+
+img{
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.user-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 50%;
+   border-bottom: 1px solid burlywood;
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width : 767px) {
+    .UserHead{
+        width: 100%;
+    }
+    .user-link{
+        width: 100%;
+    }
+}
+
